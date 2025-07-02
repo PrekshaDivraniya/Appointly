@@ -68,6 +68,7 @@ const AppContextProvider = (props) => {
 
     return (
         <AppContext.Provider value={value}>
+             {/* eslint-disable-next-line react/prop-types */}
             {props.children}
         </AppContext.Provider>
     );
